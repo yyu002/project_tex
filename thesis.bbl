@@ -1,9 +1,23 @@
 \begin{thebibliography}{1}
 
-\bibitem{Rowe:2005:ASR}
-L.~A. Rowe and R.~Jain.
-\newblock Acm sigmm retreat report on future directions in multimedia research.
-\newblock {\em ACM Transactions on Multimedia Computing, Communications, and
-  Applications}, 1(1):3--13, 2005.
+\bibitem{name1}
+\url{https://www.bnext.com.tw/article/38740/BN-2016-02-22-183726-196}.
+
+\bibitem{name2}
+\url{ https://phd.com.tw/knowledge/app-dev/web-app/ }.
+
+\bibitem{name3}
+\url{ https://support.google.com/google-ads/answer/7336531?hl=zh-Hant }.
+
+\bibitem{name4}
+\url{ http://coding-frenzy.arping.me/ }.
+
+\bibitem{name5}
+\url{
+  https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22102MCU05392008%22.&searchmode=basic&extralimit=asc=%22%E9%8A%98%E5%82%B3%E5%A4%A7%E5%AD%B8%22&extralimitunit=%E9%8A%98%E5%82%B3%E5%A4%A7%E5%
+  }.
+
+\bibitem{name6}
+\url{ https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2 }.
 
 \end{thebibliography}
