@@ -11,10 +11,13 @@
 \usepackage[printwatermark]{xwatermark}
 \usepackage{graphicx}
 \usepackage{pdfpages}
-\usepackage{url}
 \usepackage{indentfirst}
 \usepackage{enumerate}
+\usepackage{eso-pic}
 
+\newcommand\MyAtPageCenter[1]{\AtPageUpperLeft{%
+\put(\LenToUnit{.31\paperwidth},\LenToUnit{-.6\paperheight}){#1}}%
+}
 % Using the tex-text mapping for ligatures etc.
 \defaultfontfeatures{Mapping=tex-text}
 
@@ -58,6 +61,7 @@
 \fi
 
 \input{acknowledgements}
+\AddToShipoutPictureBG{\MyAtPageCenter{\includegraphics[scale=1]{2016070004.jpg}}}
 \input{abstract}
 
 \tableofcontents
@@ -69,7 +73,7 @@
 % Your thesis goes here
 \input{緒論}
 \input{背景技術介紹}
-%\input{photoshoot}
+\input{系統架構與規劃}
 %\input{modeling}
 %\input{application}
 %\input{conclusion}
