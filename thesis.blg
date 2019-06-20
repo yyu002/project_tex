@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: abbrv.bst
 Database file #1: thesis.bib
+Warning--I didn't find a database entry for "name21"
 Warning--to sort, need author or key in name1
 Warning--to sort, need author or key in name2
 Warning--to sort, need author or key in name3
@@ -20,4 +21,5 @@ Warning--to sort, need author or key in name16
 Warning--to sort, need author or key in name17
 Warning--to sort, need author or key in name18
 Warning--to sort, need author or key in name19
-(There were 19 warnings)
+Warning--to sort, need author or key in name20
+(There were 21 warnings)

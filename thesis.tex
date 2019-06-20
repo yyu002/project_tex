@@ -14,6 +14,10 @@
 \usepackage{indentfirst}
 \usepackage{enumerate}
 \usepackage{eso-pic}
+\usepackage{float} %设置图片浮动位置的宏包
+\usepackage{subfigure} %插入多图时用子图显示的宏包
+\usepackage{listings}%程式碼高亮
+\usepackage{xcolor}
 
 \newcommand\MyAtPageCenter[1]{\AtPageUpperLeft{%
 \put(\LenToUnit{.31\paperwidth},\LenToUnit{-.6\paperheight}){#1}}%
@@ -67,6 +71,7 @@
 \tableofcontents
 \listoffigures
 \listoftables
+\lstlistoflistings
 
 \mainmatter
 
