@@ -9,7 +9,7 @@
 		\centering %图片居中
 		\includegraphics[width=0.7\textwidth]{c5C4T4t.png} %插入图片，[]中设置图片大小，{}中是图片文件名
 		\caption{系統前半js與html架構} %最终文档中希望显示的图片标题
-		\label{Fig.main2} %用于文内引用的标签
+		\label{Fig.3.1} %用于文内引用的标签
 \end{figure}
 \subsection{輸入}	
 \begin{itemize}
@@ -87,7 +87,7 @@ function cal_words(){
 		\centering %图片居中
 		\includegraphics[width=0.7\textwidth]{3_1_3.png} %插入图片，[]中设置图片大小，{}中是图片文件名
 		\caption{範例圖片} %最终文档中希望显示的图片标题
-		\label{Fig.main2} %用于文内引用的标签
+		\label{Fig.3.2} %用于文内引用的标签
 	\end{figure}
 此範例圖片是每隔一段時間隨機取一數字並畫成圖，推送至html網頁，他是即時更新的圖表。
 而在前頭所提及的setInterval()函數，可與圖表結合，可以更改setInterval()函數所選取的秒數擷取不同時間。所以圖表的輸出為: X軸時間，Y軸字數與行數
@@ -99,5 +99,110 @@ function cal_words(){
 	\centering %图片居中
 	\includegraphics[width=0.7\textwidth]{3_2.png} %插入图片，[]中设置图片大小，{}中是图片文件名
 	\caption{分析系統架構} %最终文档中希望显示的图片标题
-	\label{Fig.main2} %用于文内引用的标签
+	\label{Fig.3.3} %用于文内引用的标签
+	\end{figure}
+在後半部分本研究換了一種程式語言撰寫，為python。
+分析的方向大致為:
+1. 某同學做一提的總時間分析，統計大家平均的作答時間
+2. 停頓處:若在某處的數據發現停頓，那麼表示這位同學可能在此處卡住
+\subsection{製造測試數據}
+\subsubsection{討論數據的特徵}
+圖(3.4)為在html的程式中執行後的結果，因為是打字數與時間的關係，所以數據自然是漸進式的。佔比面積較大為字數，下部分小的為行數。也就是時間與字行數的關係圖。
+但如果數據要一個個採集變不是如此容易，於是面臨測試數據不夠於給之後的分析程式使用，於是便發想也是使用程式製造出類似於測驗結果的數據測試。
+	\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+	\centering %图片居中
+	\includegraphics[width=0.7\textwidth]{3_2_1_1.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+	\caption{執行結果漸增圖} %最终文档中希望显示的图片标题
+	\label{Fig.3.4} %用于文内引用的标签
+	\end{figure}
+如下討論數據的特徵:
+1. 規定時間區間:一個班級同學做同一題目，大家所完成的時間會有差別，可以規定自做的數據時間(ex:15分~1小時)，而30分鐘可能是大部分人完成的時間，15分是做得快的，50分以上是做得慢的。
+2. 第二欄數據的製造:第二欄是字數的統計，要像是圖(某)中一樣漸進的增加，但是每位同學的字數可能不同，或是停頓的地方可能也不同。它們的字數可能也要設定一個區間。
+3. 第三欄為行數，理論上越多字的越多行，但還是必須規定不能生成太多行數。
+\subsubsection{規定格式}
+觀察圖(3.4)可以知道有好幾組數據在學生打字的時候同步進行計算，而必須規定一數據格式進行傳輸與分析時會較為方便。
+這裡為了方便撰寫程式製造類似打字數據的程式，便規定數據必須有三行陣列，也就是3*(時間格數)陣列(圖某)，如此陣列的表示數據在作往後的分析或是呈現給使用者看更能靈活地使用。
+以下分三部分討論其中數據的構成。
+\subsubsection{數據第一部分}
+第一部分討論的是時間，網頁程式所抓取的時間是固定的，因此時間的間隔相同。(圖3.5)
+	\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+	\centering %图片居中
+	\includegraphics[width=0.7\textwidth]{3_2_1_3.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+	\caption{網頁程式執行結果圖} %最终文档中希望显示的图片标题
+	\label{Fig.3.5} %用于文内引用的标签
+	\end{figure}
+每位同學在撰寫時所完成的時間也不相同，在產生數據時規定上下界，如同規定最快完成與最慢完成所需花費的時間。
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\begin{lstlisting}[language=Python,caption=python數據第一部分]
+data_up = 180
+data_down = 500  #可以自行規定秒數區間
+random_data = random.randint(data_up,data_down) #這是秒數
+r1 = list(range(0,random_data,2)) #r1是第一部分時間陣列的部分
+print(r1)
+r_row1=len(r1)
+r_row2=r1[-1]
+print("\n*total rows=",r_row1,)
+print("*total time(sec)=",r_row2) #計算random的格數與秒數(秒數為最後一個數據)
+\end{lstlisting}
+使用random函數進行最大秒數的選擇，後頭的第二與第三數據產生也大量地使用random函數。
+\subsubsection{數據第二部分}
+第二處可謂最為重要、關鍵與複雜的部份，畢竟是數據最有變化性的部分。
+一開始構想的是使用者被網頁觀測到的數據是不停增加，但不會每一段時間增加幅度相同。
+\begin{lstlisting}[language=Python,caption=python數據第二部分]
+a = random.randint(0,10)
+b = random.randint(a,20)
+c = random.randint(b,30)
+d = random.randint(c,40)
+e = random.randint(d,50)
+f = random.randint(e,60)
+g = random.randint(f,70)
+h = random.randint(g,80)
+print(a,b,c,d,e,f,g,h)
+\end{lstlisting}
+如此，此程式所呈現的結果是(8 13 21 34 38 59 64 67)，當然每執行一次都不同。
+如此撰寫的話，字數會無止盡的增加，在短短時間不可能寫如此快速。只有增加的數據無法反映使用者若是遇到不會的地方的情況，我想加入"若是使用者在思考"的停頓，就是會維持同一個字數許久，而數據不停增加則模擬不出。
+打字字數增加，有些地方增加特別快，但也有停頓或是寫錯的地方。如此在打錯的時候使用剪下(ctrl+x)或是倒退(Backspace)，所以整體的數據並不會一路平滑的增加，藉由此情狀模擬在作答一個題目數據呈現的變化。
+
+於是在使用者不停增加第二部分字數的基礎上修改至可能停駐思考或是寫錯重來的時候。
+新增三個參數分別代表增加、停留、倒退，使用random函數決定使用者可能的三個動作，而在增加與減少的時候數據的變化亮是不等的，此部分也使用random函數實現。(圖3.6)
+\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+	\centering %图片居中
+	\includegraphics[width=0.7\textwidth]{3_2_1_4.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+	\caption{第二部分數據呈現與折線圖} %最终文档中希望显示的图片标题
+	\label{Fig.3.6} %用于文内引用的标签
+\end{figure}
+\subsubsection{數據第三部分}
+第三部分為行數 此部分不用著墨太多，雖然第二部分字數與第三部分行數息息相關，但是換行並不用太過關注，或是只要使用原程式碼(js)的監測便會知道使用者換行的時候
+第三部分想製造出0,0,0,1,1,1,2,2,2,3,3,3,3,3,3,3,4,4,4,.....如此的陣列漸增關係，但是增加的幅度遠比第二部分的字數還要緩慢許多。(圖3.7)
+\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+	\centering %图片居中
+	\includegraphics[width=0.7\textwidth]{3_2_1_5.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+	\caption{第三部分數據呈現與折線圖} %最终文档中希望显示的图片标题
+	\label{Fig.3.7} %用于文内引用的标签
 \end{figure}

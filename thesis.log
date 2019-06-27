@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.5.16)  20 JUN 2019 16:03
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.5.16)  27 JUN 2019 16:27
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1161,6 +1161,18 @@ LaTeX Warning: Label `Fig.main2' multiply defined.
 
 LaTeX Warning: Label `Fig.main2' multiply defined.
 
+
+LaTeX Warning: Label `Fig.main2' multiply defined.
+
+
+LaTeX Warning: Label `Fig.main2' multiply defined.
+
+
+LaTeX Warning: Label `Fig.main2' multiply defined.
+
+
+LaTeX Warning: Label `Fig.main2' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
@@ -1514,16 +1526,53 @@ File: 3_1_3.png Graphic file (type bmp)
 <3_1_3.png>
 File: 3_2.png Graphic file (type bmp)
 <3_2.png>
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
  [11]
+File: 3_2_1_1.png Graphic file (type bmp)
+<3_2_1_1.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [12]
+File: 3_2_1_3.png Graphic file (type bmp)
+<3_2_1_3.png>
+
+Underfull \vbox (badness 2707) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [13]
+("C:\Users\lab501\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1
+.sty"
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 169.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 169.
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [14]
+File: 3_2_1_4.png Graphic file (type bmp)
+<3_2_1_4.png>
+File: 3_2_1_5.png Graphic file (type bmp)
+<3_2_1_5.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [15])
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
 
-[12] (thesis.bbl
+[16] (thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 [][]$[][][][][] [] [] [] [][][][][] [] [][][] [] [][][] [] [][] [] [][][][][][]
 [][] [] [][][][] [] [][][][][] [] [][][] [] [] [] [][][][][][][] [] [] [] [][] 
@@ -1562,7 +1611,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
-[13
+[17
 
 
 ]
@@ -1581,14 +1630,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 )
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
- [14]
+ [18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 96.
  (thesis.xwm) (thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DF1FCAC5F32F88B43651972D0FD88046.
+(rerunfilecheck)             Checksum: 3E3E36E0F6419CF819FFD16B1B95D64F.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1602,12 +1651,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 38862 strings out of 427748
- 774207 string characters out of 3146822
- 920824 words of memory out of 3000000
- 42425 multiletter control sequences out of 15000+200000
- 538531 words of font info for 87 fonts, out of 3000000 for 9000
+ 39059 strings out of 427748
+ 776601 string characters out of 3146822
+ 1133057 words of memory out of 3000000
+ 42611 multiletter control sequences out of 15000+200000
+ 538555 words of font info for 90 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  69i,11n,79p,460b,1346s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (32 pages).
+Output written on thesis.pdf (36 pages).
