@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.5.16)  27 JUN 2019 16:27
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.5.16)  28 JUN 2019 14:38
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1155,24 +1155,6 @@ LaTeX Warning: Label `c:intro' multiply defined.
 
 LaTeX Warning: Label `c:intro' multiply defined.
 
-
-LaTeX Warning: Label `Fig.main2' multiply defined.
-
-
-LaTeX Warning: Label `Fig.main2' multiply defined.
-
-
-LaTeX Warning: Label `Fig.main2' multiply defined.
-
-
-LaTeX Warning: Label `Fig.main2' multiply defined.
-
-
-LaTeX Warning: Label `Fig.main2' multiply defined.
-
-
-LaTeX Warning: Label `Fig.main2' multiply defined.
-
 )
 \openout1 = `thesis.aux'.
 
@@ -1651,10 +1633,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 39059 strings out of 427748
- 776601 string characters out of 3146822
- 1133057 words of memory out of 3000000
- 42611 multiletter control sequences out of 15000+200000
+ 39058 strings out of 427748
+ 776590 string characters out of 3146822
+ 1133269 words of memory out of 3000000
+ 42610 multiletter control sequences out of 15000+200000
  538555 words of font info for 90 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  69i,11n,79p,460b,1346s stack positions out of 5000i,500n,10000p,200000b,50000s
