@@ -18,6 +18,8 @@
 \usepackage{subfigure} %插入多图时用子图显示的宏包
 \usepackage{listings}%程式碼高亮
 \usepackage{xcolor}
+\usepackage{booktabs} %需要加载宏包{booktabs}
+\usepackage{cite}
 
 \newcommand\MyAtPageCenter[1]{\AtPageUpperLeft{%
 \put(\LenToUnit{.31\paperwidth},\LenToUnit{-.6\paperheight}){#1}}%
@@ -79,8 +81,8 @@
 \input{緒論}
 \input{背景技術介紹}
 \input{系統架構與規劃}
-%\input{modeling}
-%\input{application}
+\input{實驗與執行結果}
+\input{結論與未來展望}
 %\input{conclusion}
 
 \appendix
@@ -88,9 +90,10 @@
 \backmatter
 
 \addcontentsline{toc}{chapter}{\bibname}
-\bibliographystyle{abbrv}
+\bibliographystyle{unsrt}
 
 % Your bibliography goes here
 \bibliography{thesis}
-
+%\bibliography{references}{}
+%\bibliographystyle{unsrt}
 \end{document}

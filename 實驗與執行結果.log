@@ -1,0 +1,324 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.5.16)  30 JUN 2019 16:19
+entering extended mode
+**./實驗與執行結果.tex
+(實驗與執行結果.tex
+LaTeX2e <2018-12-01>
+! Undefined control sequence.
+l.1 \chapter
+            {實驗與執行結果}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{實
+              驗與執行結果}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 實 in font nullfont!
+Missing character: There is no 驗 in font nullfont!
+Missing character: There is no 與 in font nullfont!
+Missing character: There is no 執 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 結 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 本 in font nullfont!
+Missing character: There is no 章 in font nullfont!
+Missing character: There is no 節 in font nullfont!
+Missing character: There is no 討 in font nullfont!
+Missing character: There is no 論 in font nullfont!
+Missing character: There is no 網 in font nullfont!
+Missing character: There is no 頁 in font nullfont!
+Missing character: There is no 與 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 析 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 結 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 與 in font nullfont!
+Missing character: There is no 輸 in font nullfont!
+Missing character: There is no 出 in font nullfont!
+Missing character: There is no 數 in font nullfont!
+Missing character: There is no 據 in font nullfont!
+! Undefined control sequence.
+l.4 \section
+            {網頁平台數據結果}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 網 in font nullfont!
+Missing character: There is no 頁 in font nullfont!
+Missing character: There is no 平 in font nullfont!
+Missing character: There is no 台 in font nullfont!
+Missing character: There is no 數 in font nullfont!
+Missing character: There is no 據 in font nullfont!
+Missing character: There is no 結 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--5
+[]
+ []
+
+! Undefined control sequence.
+l.6 \section
+            {python的討論分析}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \section{p
+              ython的討論分析}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 討 in font nullfont!
+Missing character: There is no 論 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 析 in font nullfont!
+! Undefined control sequence.
+l.7 \subsubsection
+                  {個別的圖形與數據}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 個 in font nullfont!
+Missing character: There is no 別 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 圖 in font nullfont!
+Missing character: There is no 形 in font nullfont!
+Missing character: There is no 與 in font nullfont!
+Missing character: There is no 數 in font nullfont!
+Missing character: There is no 據 in font nullfont!
+! Undefined control sequence.
+l.8 \subsubsection
+                  {統整的表格數據}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 統 in font nullfont!
+Missing character: There is no 整 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no 數 in font nullfont!
+Missing character: There is no 據 in font nullfont!
+Missing character: There is no 把 in font nullfont!
+Missing character: There is no 全 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 數 in font nullfont!
+Missing character: There is no 據 in font nullfont!
+Missing character: There is no 統 in font nullfont!
+Missing character: There is no 整 in font nullfont!
+Missing character: There is no 起 in font nullfont!
+Missing character: There is no 來 in font nullfont!
+Missing character: There is no 製 in font nullfont!
+Missing character: There is no 程 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no 也 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 使 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 輸 in font nullfont!
+Missing character: There is no 出 in font nullfont!
+Missing character: There is no 顯 in font nullfont!
+Missing character: There is no 示 in font nullfont!
+Missing character: There is no 結 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 組 in font nullfont!
+Missing character: There is no 結 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 圖 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--11
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 2
+      . 30組結果
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 組 in font nullfont!
+Missing character: There is no 結 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 因 in font nullfont!
+Missing character: There is no 資 in font nullfont!
+Missing character: There is no 料 in font nullfont!
+Missing character: There is no 較 in font nullfont!
+Missing character: There is no 龐 in font nullfont!
+Missing character: There is no 大 in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 使 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no 顯 in font nullfont!
+Missing character: There is no 示 in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 14.
+! Undefined control sequence.
+l.15 ^^I^^I\toprule
+                     %添加表格头部粗线
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 姓 in font nullfont!
+Missing character: There is no 名 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 号 in font nullfont!
+Missing character: There is no 性 in font nullfont!
+Missing character: There is no 别 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.17 ^^I^^I\midrule
+                     %添加表格中横线
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.20 ^^I^^I\bottomrule
+                       %添加表格底部粗线
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 12--22
+[]
+ []
+
+)
+! Emergency stop.
+<*> ./實驗與執行結果.tex
+                 
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 10 strings out of 427748
+ 101 string characters out of 3146822
+ 63543 words of memory out of 3000000
+ 4145 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 19i,6n,12p,58b,88s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

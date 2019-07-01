@@ -1,7 +1,7 @@
-\contentsline {chapter}{口試委員會審定書}{iii}{Doc-Start}% 
-\contentsline {chapter}{誌謝}{v}{chapter*.1}% 
-\contentsline {chapter}{摘要}{vii}{chapter*.2}% 
-\contentsline {chapter}{Abstract}{ix}{chapter*.3}% 
+\contentsline {chapter}{口試委員會審定書}{ii}{Doc-Start}% 
+\contentsline {chapter}{誌謝}{iii}{chapter*.1}% 
+\contentsline {chapter}{摘要}{iv}{chapter*.2}% 
+\contentsline {chapter}{Abstract}{v}{chapter*.3}% 
 \contentsline {chapter}{\numberline {1}緒論}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}研究動機與目的}{2}{section.1.2}% 
@@ -28,4 +28,19 @@
 \contentsline {subsubsection}{數據第一部分}{13}{section*.10}% 
 \contentsline {subsubsection}{數據第二部分}{14}{section*.11}% 
 \contentsline {subsubsection}{數據第三部分}{16}{section*.12}% 
-\contentsline {chapter}{Bibliography}{17}{figure.3.7}% 
+\contentsline {subsection}{\numberline {3.2.2}分析數據部分}{16}{subsection.3.2.2}% 
+\contentsline {subsubsection}{單組數據整體分析}{16}{section*.13}% 
+\contentsline {subsubsection}{單組數據細部分析}{17}{section*.14}% 
+\contentsline {subsubsection}{多組數據}{22}{section*.15}% 
+\contentsline {chapter}{\numberline {4}實驗與執行結果}{24}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}網頁平台數據結果}{24}{section.4.1}% 
+\contentsline {subsubsection}{顯示頁面}{24}{section*.16}% 
+\contentsline {subsubsection}{網頁的圖形輸出}{25}{section*.17}% 
+\contentsline {section}{\numberline {4.2}python的討論分析}{27}{section.4.2}% 
+\contentsline {subsubsection}{個別的圖形與數據}{27}{section*.18}% 
+\contentsline {subsubsection}{統整的表格數據}{30}{section*.19}% 
+\contentsline {section}{\numberline {4.3}結果討論}{32}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}html網頁偵測部份}{32}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}python分析部分討論}{32}{subsection.4.3.2}% 
+\contentsline {chapter}{\numberline {5}結果討論與未來展望}{33}{chapter.5}% 
+\contentsline {chapter}{Bibliography}{34}{chapter.5}% 

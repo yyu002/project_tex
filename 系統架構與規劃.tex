@@ -7,7 +7,7 @@
 %\includegraphics[width = .8\textwidth]{c5C4T4t.png}
 \begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
 		\centering %图片居中
-		\includegraphics[width=0.7\textwidth]{c5C4T4t.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+		\includegraphics[width=0.7\textwidth]{1.png} %插入图片，[]中设置图片大小，{}中是图片文件名
 		\caption{系統前半js與html架構} %最终文档中希望显示的图片标题
 		\label{Fig.3.1} %用于文内引用的标签
 \end{figure}
@@ -85,7 +85,7 @@ function cal_words(){
 	除了能夠獲取實質上的數據數字外，我使用了chart.js與vue.js進行數據繪圖與整理。\cite{name21}
 	\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
 		\centering %图片居中
-		\includegraphics[width=0.7\textwidth]{3_1_3.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+		\includegraphics[width=0.7\textwidth]{3.png} %插入图片，[]中设置图片大小，{}中是图片文件名
 		\caption{範例圖片} %最终文档中希望显示的图片标题
 		\label{Fig.3.2} %用于文内引用的标签
 	\end{figure}
@@ -97,7 +97,7 @@ function cal_words(){
 \section{系統後半colab分析部分}
 	\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
 	\centering %图片居中
-	\includegraphics[width=0.7\textwidth]{3_2.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+	\includegraphics[width=0.7\textwidth]{2.png} %插入图片，[]中设置图片大小，{}中是图片文件名
 	\caption{分析系統架構} %最终文档中希望显示的图片标题
 	\label{Fig.3.3} %用于文内引用的标签
 	\end{figure}
@@ -111,7 +111,7 @@ function cal_words(){
 但如果數據要一個個採集變不是如此容易，於是面臨測試數據不夠於給之後的分析程式使用，於是便發想也是使用程式製造出類似於測驗結果的數據測試。
 	\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
 	\centering %图片居中
-	\includegraphics[width=0.7\textwidth]{3_2_1_1.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+	\includegraphics[width=0.7\textwidth]{4.png} %插入图片，[]中设置图片大小，{}中是图片文件名
 	\caption{執行結果漸增圖} %最终文档中希望显示的图片标题
 	\label{Fig.3.4} %用于文内引用的标签
 	\end{figure}
@@ -174,6 +174,7 @@ print("*total time(sec)=",r_row2) #計算random的格數與秒數(秒數為最�
 \subsubsection{數據第二部分}
 第二處可謂最為重要、關鍵與複雜的部份，畢竟是數據最有變化性的部分。
 一開始構想的是使用者被網頁觀測到的數據是不停增加，但不會每一段時間增加幅度相同。
+
 \begin{lstlisting}[language=Python,caption=python數據第二部分]
 a = random.randint(0,10)
 b = random.randint(a,20)
@@ -200,9 +201,115 @@ print(a,b,c,d,e,f,g,h)
 \subsubsection{數據第三部分}
 第三部分為行數 此部分不用著墨太多，雖然第二部分字數與第三部分行數息息相關，但是換行並不用太過關注，或是只要使用原程式碼(js)的監測便會知道使用者換行的時候
 第三部分想製造出0,0,0,1,1,1,2,2,2,3,3,3,3,3,3,3,4,4,4,.....如此的陣列漸增關係，但是增加的幅度遠比第二部分的字數還要緩慢許多。(圖3.7)
-\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+	\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
 	\centering %图片居中
 	\includegraphics[width=0.7\textwidth]{3_2_1_5.png} %插入图片，[]中设置图片大小，{}中是图片文件名
 	\caption{第三部分數據呈現與折線圖} %最终文档中希望显示的图片标题
 	\label{Fig.3.7} %用于文内引用的标签
+	\end{figure}
+\subsection{分析數據部分}
+\subsubsection{單組數據整體分析}
+\begin{itemize}
+	\item 可從最為直觀的記算所有數據的平均速度或是平均字數為基礎，在加上停頓點的分析。因為把數據設計成三個陣列的原因，在分析步驟可以很容易抓到要的數據進行運算。
+	\item 在陣列上最容易計算的如:作答時間、做答完畢字數、做答完畢(圖3.8)
+	\begin{figure}[H] 
+		\centering 
+		\includegraphics[width=0.7\textwidth]{3_8.png} 
+		\caption{整體結果} 
+		\label{Fig.3.8} 
+	\end{figure}
+	然後在往下延伸計算的數據，如:平均做答速度、前半作答速度、後半作答速度；在速度的計算上分兩部分是因為如果只有一個均速可能在比較上會有集大誤差，因此做多個速度的比較數據會更佳。(圖3.9)
+	\begin{figure}[H] 
+		\centering 
+		\includegraphics[width=0.2\textwidth]{3_9.png} 
+		\caption{整體速度結果} 
+		\label{Fig.3.8} 
+	\end{figure}
+	\item 收集這些速度的數據在之後比較多組，也就是多個同學更能知道每個人的打字速度，除了分析打字的字數外速度也可以加入進行細部分的分析。
+\end{itemize}
+\subsubsection{單組數據細部分析}
+\begin{itemize}
+	\item 除了單組數據的整體分析，最總體的數據與平均時間外，打字的停滯點也是至關重要。
+	\item 要找出數組中的斷點若是直接觀察是非常容易的，如(圖3.10)
+		\begin{figure}[H] 
+		\centering 
+		\includegraphics[width=0.7\textwidth]{3_10.png} 
+		\caption{示例圖片} 
+		\label{Fig.3.10} 
+	\end{figure}
+	若是看到打字沒有增加，在圖中是平行線段，就代表動作停滯、維持同一字數。
+	\item 找出停滯部分本研究所使用方法是，使陣列的後項數據剪去前項數據，並且判斷此數據值若是正數，則判斷增加；若是0，判斷停滯；若是負數，判斷刪除倒退。
+	可將此判斷數據化存成另一陣列，在此以下稱trend陣列。\\
+	1. 後項減去前項為正:打字字數增加，1表示\\
+	2. 後項減去前項為零:打字字數不變，0表示\\
+	3. 後項減去前項為負:打字字數減少，-1表示\\
+	將判斷後1,0,-1的值存入trend陣列，故此陣列為三個元素組成，且比原本數據的陣列值少一，因為trend陣列是原陣列間隔中的差分。(圖3.11)
+		\begin{figure}[H] 
+		\centering 
+		\includegraphics[width=0.7\textwidth]{3_11.png} 
+		\caption{trend陣列輸出} 
+		\label{Fig.3.11} 
+	\end{figure}
+	上半部陣列為原數據的陣列，字數遞增；下半部為使用1，0，-1判斷產生的trend陣列。
+	如此便很清楚的看出，0是使用者停下的部分，之後能從0所停頓的時間長度，或是停頓所發生的次數判斷分析。
+	\item 除了把trend陣列顯示外，若能畫圖更能掌握此陣列數據的特徵。(圖)點狀圖
+	\begin{figure}[H] 
+		\centering 
+		\includegraphics[width=0.7\textwidth]{3_12.png} 
+		\caption{trend點狀圖} 
+		\label{Fig.3.12} 
+	\end{figure}
+	(圖)圓餅圖
+	\begin{figure}[H] 
+		\centering 
+		\includegraphics[width=0.7\textwidth]{3_13.png} 
+		\caption{trend圓餅圖} 
+		\label{Fig.3.13} 
+	\end{figure}
+\item 製做點狀圖或是圓餅圖可以顯示使用者停頓、打字或是刪除的密集程度。不過此處若是希望只看停頓處的地方，於是在多新增一個新的陣列，以下稱trend2。trend2是把0的元素抓出，把0換成1；因此trend2數據便只有0與1數值。
+\item 部分程式:
+\begin{lstlisting}[language=Python,caption=python數據trend2]
+#len(trend)#trend的隔數 大約表示時間的1/2
+trend2=np.zeros(len(trend),int)
+for j in range (0,len(trend2)):
+	if (trend[j]!=0):
+		trend2[j]=0
+	else :
+		trend2[j]=1
+print(trend)
+print(trend2)#trend2是trend的停頓部分
+\end{lstlisting}
+將trend與trend2顯示(圖3.14)
+	\begin{figure}[H] 
+	\centering 
+	\includegraphics[width=0.7\textwidth]{3_14.png} 
+	\caption{trend2輸出} 
+	\label{Fig.3.14} 
 \end{figure}
+\newpage
+如此只剩0與1兩個元素的trend2陣列畫成柱狀圖觀察，如同條碼的形狀。(圖3.15)其中線條就是使用者停頓處。
+	\begin{figure}[H] 
+	\centering 
+	\includegraphics[width=0.7\textwidth]{3_15.png} 
+	\caption{trend2條碼狀方圖} 
+	\label{Fig.3.15} 
+\end{figure}
+\item 最後一個圖做分區的統計，這裡計算trend2陣列1的出現次數，並且做分區的統計次數。
+分區的分法是察看trend2的全部元素個數，並且分成五等分，在一個個部分統計停頓的出現次數，例如若有200數據，則第一部份統計1出現個數為0~50組，第二部分統計為50~100，以下類推。(圖3.16)
+	\begin{figure}[H] 
+	\centering 
+	\includegraphics[width=0.7\textwidth]{3_16.png} 
+	\caption{trend2分區圖} 
+	\label{Fig.3.16} 
+\end{figure}
+不過如此計算的密度為強制分區，可能無法把密度情況很好的呈現出來，此部份討論於結果部份做詳細討論檢討。
+\end{itemize}
+\subsubsection{多組數據}
+	\begin{figure}[H] 
+	\centering 
+	\includegraphics[width=0.5\textwidth]{3_17.png} 
+	\caption{多組數據} 
+	\label{Fig.3.17} 
+\end{figure}
+以上分析都是只使用一組數據分析與統計的結果，若要在此基礎上擴增成多數據的分析，則需要進行更多數據的製造與集合分析，所以以上的步驟需要進行多次。
+如此進行多次迴圈，此迴全次數可以自行修改。(圖3.17)為設定10次所呈現之全部格數與全部時間。

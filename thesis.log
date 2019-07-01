@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.5.16)  28 JUN 2019 14:38
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7000 64-bit) (preloaded format=xelatex 2019.5.16)  1 JUL 2019 14:54
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1086,6 +1086,33 @@ File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
+("C:\Users\lab501\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs
+.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen302
+\lightrulewidth=\dimen303
+\cmidrulewidth=\dimen304
+\belowrulesep=\dimen305
+\belowbottomsep=\dimen306
+\aboverulesep=\dimen307
+\abovetopsep=\dimen308
+\cmidrulesep=\dimen309
+\cmidrulekern=\dimen310
+\defaultaddspace=\dimen311
+\@cmidla=\count333
+\@cmidlb=\count334
+\@aboverulesep=\dimen312
+\@belowrulesep=\dimen313
+\@thisruleclass=\count335
+\@lastruleclass=\count336
+\@thisrulewidth=\dimen314
+)
+("C:\Users\lab501\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             New Roman' with options
 (fontspec)             [Mapping=tex-text,Ligatures=TeX].
@@ -1118,7 +1145,7 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-
 text;"
 
-LaTeX Info: Redefining \rmfamily on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 32.
 
 Package fontspec Info: Could not resolve font "標楷體/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1142,13 +1169,23 @@ Package fontspec Info: Font family '標楷體(0)' created for font '標楷體' w
 (fontspec)             <->"標楷體/OT:script=hani;language=DFLT;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- (ntuvars.tex)
+
+(ntuvars.tex)
 ("C:\Users\lab501\AppData\Local\Programs\MiKTeX 2.9\tex/xelatex/xecjk\xeCJK-lis
 tings.sty"
 Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count333
-\l__xeCJK_listings_flag_int=\count334
+\l__xeCJK_listings_max_char_int=\count337
+\l__xeCJK_listings_flag_int=\count338
 ) (thesis.aux
+
+LaTeX Warning: Label `c:intro' multiply defined.
+
+
+LaTeX Warning: Label `c:intro' multiply defined.
+
+
+LaTeX Warning: Label `Fig.3.8' multiply defined.
+
 
 LaTeX Warning: Label `c:intro' multiply defined.
 
@@ -1158,26 +1195,26 @@ LaTeX Warning: Label `c:intro' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1218,66 +1255,66 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 55.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 55.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 55.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 55.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 55.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 55.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 55.
-LaTeX Font Info:    Redeclaring math accent \check on input line 55.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 55.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 55.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 55.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 55.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 57.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 57.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 57.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 57.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 57.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 57.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 57.
+LaTeX Font Info:    Redeclaring math accent \check on input line 57.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 57.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 57.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 57.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 57.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 55.
+(Font)              `operators' in the math version `normal' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 5
-5.
+7.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 55.
+(Font)              `operators' in the math version `bold' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-55.
+57.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 55.
+input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 55.
+ 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 55.
+ 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/phv/m/n on input line 55.
+(Font)                  OT1/cmss/m/n --> TU/phv/m/n on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/pcr/m/n on input line 55.
+(Font)                  OT1/cmtt/m/n --> TU/pcr/m/n on input line 57.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 55.
+ input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 55.
+ne 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/phv/bx/n on input line 55.
+(Font)                  OT1/cmss/bx/n --> TU/phv/bx/n on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/pcr/bx/n on input line 55.
+(Font)                  OT1/cmtt/m/n --> TU/pcr/bx/n on input line 57.
 ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 55.
+Package hyperref Info: Link coloring OFF on input line 57.
 
 ("C:\Users\lab501\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.
 sty"
@@ -1287,11 +1324,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 lestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count339
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
  (thesis.out) (thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1308,7 +1345,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 
 )
-\c@lstlisting=\count336
+\c@lstlisting=\count340
 
 ("C:\Users\lab501\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\se-asc
 ii-print.def"
@@ -1318,22 +1355,20 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 
 
-] [2
-
 ]
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 64.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <15> on input line 64.
+(Font)              <15> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.49995> on input line 64.
+(Font)              <10.49995> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.5> on input line 64.
+(Font)              <7.5> on input line 66.
 
-Overfull \hbox (31.11316pt too wide) in paragraph at lines 64--64
+Overfull \hbox (31.11316pt too wide) in paragraph at lines 66--66
  [] 
  []
 
-(acknowledgements.tex [3] [4
+(acknowledgements.tex [2
 
 ]
 
@@ -1343,38 +1378,20 @@ LaTeX Font Warning: Font shape `TU/標楷體(0)/bx/n' undefined
 ) (abstract.tex
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
+ [3
+
+
+]
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [4
+
+
+])
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
  [5
 
-]
-File: 2016070004.jpg Graphic file (type bmp)
-<2016070004.jpg>
- [6
-
-]
-File: 2016070004.jpg Graphic file (type bmp)
-<2016070004.jpg>
- [7
-
-]
-File: 2016070004.jpg Graphic file (type bmp)
-<2016070004.jpg>
- [8
-
-]
-Overfull \hbox (4.77115pt too wide) in paragraph at lines 12--13
-\TU/TimesNewRoman(0)/bx/n/12 Keywords:\TU/TimesNewRoman(0)/m/n/12 webapp,html,c
-ss,javascript,vue.js,python,colab,AI,mechine learn-
- []
-
-)
-File: 2016070004.jpg Graphic file (type bmp)
-<2016070004.jpg>
- [9
-
-]
-File: 2016070004.jpg Graphic file (type bmp)
-<2016070004.jpg>
- [10
 
 ] (thesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1385,36 +1402,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 6.
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
- [11])
+ [6
+
+])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
- [12] (thesis.lof)
+ [7] (thesis.lof
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [8
+
+])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
- [13
-
-]
-File: 2016070004.jpg Graphic file (type bmp)
-<2016070004.jpg>
- [14
-
-] (thesis.lot)
+ [9]
+(thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
- [15]
-File: 2016070004.jpg Graphic file (type bmp)
-<2016070004.jpg>
-
-[16
+ [10
 
 ] (thesis.lol)
 \tf@lol=\write9
@@ -1422,10 +1436,7 @@ File: 2016070004.jpg Graphic file (type bmp)
 
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
- [17]
-File: 2016070004.jpg Graphic file (type bmp)
-<2016070004.jpg>
- [18
+ [11
 
 ] (緒論.tex
 Chapter 1.
@@ -1435,6 +1446,7 @@ Underfull \vbox (badness 4291) has occurred while \output is active []
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
  [1
+
 
 ]
 File: 2016070004.jpg Graphic file (type bmp)
@@ -1463,8 +1475,8 @@ File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
  [8]
 Chapter 3.
-File: c5C4T4t.png Graphic file (type bmp)
-<c5C4T4t.png>
+File: 1.png Graphic file (type bmp)
+<1.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--13
 
@@ -1501,21 +1513,18 @@ LaTeX Font Warning: Font shape `TU/pcr/bx/n' undefined
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
 [10]
-
-LaTeX Warning: Citation `name21' on page 11 undefined on input line 85.
-
-File: 3_1_3.png Graphic file (type bmp)
-<3_1_3.png>
-File: 3_2.png Graphic file (type bmp)
-<3_2.png>
+File: 3.png Graphic file (type bmp)
+<3.png>
+File: 2.png Graphic file (type bmp)
+<2.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
  [11]
-File: 3_2_1_1.png Graphic file (type bmp)
-<3_2_1_1.png>
+File: 4.png Graphic file (type bmp)
+<4.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1550,95 +1559,201 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
- [15])
+ [15]
+File: 3_8.png Graphic file (type bmp)
+<3_8.png>
+
+Underfull \vbox (badness 4792) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [16]
+File: 3_9.png Graphic file (type bmp)
+<3_9.png>
+File: 3_10.png Graphic file (type bmp)
+<3_10.png>
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
 
-[16] (thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[][]$[][][][][] [] [] [] [][][][][] [] [][][] [] [][][] [] [][] [] [][][][][][]
-[][] [] [][][][] [] [][][][][] [] [][][] [] [] [] [][][][][][][] [] [] [] [][] 
-[]
+[17]
+File: 3_11.png Graphic file (type bmp)
+<3_11.png>
+File: 3_12.png Graphic file (type bmp)
+<3_12.png>
+
+Underfull \vbox (badness 2080) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [18]
+File: 3_13.png Graphic file (type bmp)
+<3_13.png>
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+
+[19]
+File: 3_14.png Graphic file (type bmp)
+<3_14.png>
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [20]
+File: 3_15.png Graphic file (type bmp)
+<3_15.png>
+File: 3_16.png Graphic file (type bmp)
+<3_16.png>
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [21]
+File: 3_17.png Graphic file (type bmp)
+<3_17.png>
+) (實驗與執行結果.tex
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [22]
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [23]
+Chapter 4.
+File: 4_1.png Graphic file (type bmp)
+<4_1.png>
+
+Underfull \vbox (badness 2302) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [24
+
+]
+File: 4_2.png Graphic file (type bmp)
+<4_2.png>
+File: 4_3.png Graphic file (type bmp)
+<4_3.png>
+
+Underfull \vbox (badness 6641) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [25]
+File: 4_4.png Graphic file (type bmp)
+<4_4.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [26]
+File: 4_5.png Graphic file (type bmp)
+<4_5.png>
+File: 4_6.png Graphic file (type bmp)
+<4_6.png>
+
+Underfull \vbox (badness 2790) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [28]
+File: 4_7.png Graphic file (type bmp)
+<4_7.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [29]
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+
+[30]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 67.
+
+
+Overfull \hbox (185.20879pt too wide) in paragraph at lines 69--102
+[][]
+ []
+
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+[31]) (結論與未來展望.tex
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [32]
+Chapter 5.
+)
+File: 2016070004.jpg Graphic file (type bmp)
+<2016070004.jpg>
+ [33
+
+] (thesis.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 23--27
+[] [] [][] [] [][][][][][][][][][][][][][][][][] [] [][] [] [][][][][][][][][][
+][] [] [][][][][] [] [][][][][][][][][][] [] [][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[][][][][][][][][][][][][][][][][] [] [][] [] [][][][][][][][][][][] [] [][][][
-][] [] [][][][][][][][][][] [] [][][] [] [][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 23--27
 [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
  [][] [] [][] [] [][] [] [][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-[][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] []
-[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-[][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] []
-[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-[][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] []
-[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+[]\TU/TimesNewRoman(0)/m/n/12 Progressive web app.  []$[][][][][] [] [] [] [][]
+[][] [] [][][][][][][][][][] [] [][] [] [][][][] [] [][] [] [][] []
  []
 
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
-[17
+[34
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-[][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] []
-[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+Underfull \hbox (badness 2503) in paragraph at lines 74--78
+[]\TU/TimesNewRoman(0)/m/n/12 Ai.wiki.  []$[][][][][] [] [] [] [][] [] [][][][]
+[][][][][] [] [][][] [] [][][][] [] [][][] [] [][] [] [][] [] [][] [] [][] [] [
+][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-[][]$[][][][][] [] [] [] [][][][][] [] [][][][][][][][] [] [][][][][][] [] [][]
-[] [] [][][][][][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][][][][] []
-
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
+[]\TU/TimesNewRoman(0)/m/n/12 colab.  []$[][][][][] [] [] [] [][][][][] [] [][]
+[][][][][][] [] [][][][][][] [] [][][] [] [][][][][][][][][] [] [][][][][][][] 
+[] [][][][][] []
  []
 
 )
 File: 2016070004.jpg Graphic file (type bmp)
 <2016070004.jpg>
- [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 96.
+ [35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 99.
  (thesis.xwm) (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3E3E36E0F6419CF819FFD16B1B95D64F.
+(rerunfilecheck)             Checksum: 5B8B291F250F1C5D3F520A6B1DEC8D1F.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 39058 strings out of 427748
- 776590 string characters out of 3146822
- 1133269 words of memory out of 3000000
- 42610 multiletter control sequences out of 15000+200000
+ 39344 strings out of 427748
+ 780484 string characters out of 3146822
+ 1136158 words of memory out of 3000000
+ 42868 multiletter control sequences out of 15000+200000
  538555 words of font info for 90 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 69i,11n,79p,460b,1346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,11n,79p,460b,2295s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (36 pages).
+Output written on thesis.pdf (46 pages).
