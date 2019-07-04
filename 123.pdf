@@ -1,5 +1,5 @@
 \chapter{系統架構與規劃}
-%\label{c:intro}
+\label{c:intro}
 
 \lstset{style=mystyle}
 本章介紹系統架構與佈局規劃。
@@ -13,7 +13,6 @@
 		\caption{系統前半js與html架構} %最终文档中希望显示的图片标题
 		\label{Fig.3.1} %用于文内引用的标签
 \end{figure}
-\subsection{模擬平台}
 \subsection{輸入}	
 \begin{itemize}
 	\item textarea的作用\\
@@ -38,7 +37,7 @@ function cal_words(){
 }
 \end{lstlisting}
 
-在使用者打字在作答區時，可以使用javascript語法回傳在文字框的字行數據。
+在使用者打字在textarea時，可以使用javascript語法回傳在文字框的字行數據。
 行數據的判斷方法有些許差異，在此我用的是只要使用者打自使用到換行，如enter字符，便會判斷為增加一行。
 獲取這些數據後會回傳至html網頁顯示。
 \item 時間的判讀與計算\\
@@ -166,7 +165,7 @@ print(a,b,c,d,e,f,g,h)
 		\centering 
 		\includegraphics[width=0.2\textwidth]{3_9.png} 
 		\caption{整體速度結果} 
-		\label{Fig.3.9} 
+		\label{Fig.3.8} 
 	\end{figure}
 	\item 收集這些速度的數據在之後比較多組，也就是多個同學更能知道每個人的打字速度，除了分析打字的字數外速度也可以加入進行細部分的分析。
 \end{itemize}

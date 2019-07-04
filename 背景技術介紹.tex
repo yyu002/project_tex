@@ -1,24 +1,25 @@
 \chapter{背景技術介紹}
-\label{c:intro}
+%\label{c:intro}
 本章節對本文所使用到之背景技術介紹與討論。
 2.1節介紹網頁app定義與其對未來發展影響
 2.2節介紹所使用背景技術html
 2.3節介紹所使用背景技術javascript與其擴展外掛與建構使用者介面的不同框架vue與jquery
-2.4節介紹python與大數據的關係，與使用的colab，他是Google公開的一個Python Notebook 工具 
+2.4節介紹所使用的背景技術Firebase
+2.5節介紹python與大數據的關係，與使用的colab，他是Google公開的一個Python Notebook 工具。 
 \section{web app} 
 此小節介紹Progressive Web App (PWA)與web app。
 \begin{itemize}
 	\item 何謂 Progressive Web App (PWA)\\
 	Progressive Web App 是希望能夠讓 Web application 盡可能的在各種環境（網路環境、手機作業系統等）下都能順暢且不減功能性的運作，並讓你的 Web App 可以：
 	\begin{enumerate}[1.]
-		\item 直接被使用者安裝到桌面
+		\item 可以直接被使用者安裝至桌面執行
 		\item offline 使用
-		\item 擁有推播功能
+		\item 擁有推送訊息功能
 		\item 開啟時看不到 URL Bar（類 Native app 的使用經驗）
 		\item 開啟時有 Splash Screen \cite{name7}
 	\end{enumerate}
 	\item 何謂 Web app\\
-	就是網路應用程式(web application)，網路應用程式風行的原因之一，是因為可以直接在各種電腦平台上執行，不需要事先安裝或定期更新等程式。種類型的動態網頁和「網路應用程式」 之間的區別一般是不清楚的。最有可能接近「網路應用程式」的網站是與桌面軟體應用程式或行動應用程式具有類似功能的網站。HTML5引入了明確的支援，使得應用程式可以作為網頁載入，可以在本地儲存資料並在離線狀態下繼續執行。\cite{name8}
+	就是網路應用程式(web application)，網路應用程式風行的原因之一，是因為可以直接在各種電腦平台上執行，不需要事先安裝或定期更新等程式。此種類型的動態網頁與「網路應用程式」 之間的區別一般是模糊的。最有可能接近「網路應用程式」的網站是與桌面軟體應用程式或行動應用程式具有類似功能的網站。HTML5引入了明確的支援，使得應用程式可以作為網頁載入，可以在本地儲存資料並在離線狀態下繼續執行。\cite{name8}
 \end{itemize}
 
 \section{HTML與CSS}
@@ -26,16 +27,16 @@
 \item HTML5\\
 HTML5是HTML最新的修訂版本，由全球資訊網協會（W3C）於2014年10月完成標準制定。廣義論及HTML5時，實際指的是包括HTML、CSS和JavaScript在內的一套技術組合。它希望能夠減少網頁瀏覽器對於需要外掛程式的豐富性網路應用服務。\cite{name9}
 \item CSS\\
-層疊樣式表（Cascading Style Sheets，縮寫：CSS；又稱串樣式列表、級聯樣式表、串接樣式表、階層式樣式表）是一種用來為結構化文件（如HTML文件或XML應用）添加樣式（字型、間距和顏色等）的電腦語言，由W3C定義和維護。CSS不能單獨使用，必須與HTML或XML一起協同工作，為HTML或XML起裝飾作用。\cite{name10}
+層疊樣式表（Cascading Style Sheets，縮寫：CSS；又稱串樣式列表、級聯樣式表、串接樣式表、階層式樣式表）是一種用來為結構化文件（例如HTML文件或XML應用）添加樣式（字型、間距和顏色等）的電腦語言，由W3C定義和維護。CSS不能單獨使用，必須與HTML或XML一起協同工作，為HTML或XML起裝飾作用。\cite{name10}
 \end{itemize}
 
 \section{javascript}
-JavaScript（通常縮寫為JS）是一種進階的、直譯的程式語言。
-JavaScript是一種手稿語言，其原始碼在發往用戶端執行之前不需經過編譯，而是將文字格式的字元程式碼發送給瀏覽器由瀏覽器解釋執行。
-在用戶端，JavaScript在傳統意義上被實作為一種解釋語言，但在最近，它已經可以被即時編譯（JIT）執行。隨著最新的HTML5和CSS3語言標準的推行它還可用於遊戲、桌面和行動應用程式的開發和在伺服器端網路環境執行，如Node.js。\cite{name11}
+JavaScript（通常縮寫為JS）為一種進階的、直譯的程式語言。
+JavaScript的原始碼在發往用戶端執行之前不需經過編譯，而是將文字格式的字元程式碼發送給瀏覽器由瀏覽器解釋執行。
+在用戶端，JavaScript在傳統意義上被實作為一種解釋語言，但在最近，它已經可以被即時編譯執行。隨著最新的HTML5和CSS3語言標準的推行它還可用於遊戲、桌面和行動應用程式的開發和在伺服器端網路環境執行，如Node.js。\cite{name11}
 
 \subsection{vue.js}
-Vue (讀音 /vjuː/，類似於 view) 是一套用於構建用戶界面的漸進式框架。與其它大型框架不同的是，Vue 被設計為可以自底向上逐層應用。 Vue 的核心庫只關注視圖層，不僅易於上手，還便於與第三方庫或既有項目整合。另一方面，當與現代化的工具鏈以及各種支持類庫結合使用時，Vue 也完全能夠為複雜的單頁應用提供驅動。\cite{name12}
+Vue (讀音 /vjuː/，類似於 view) 是一套用於構建用戶界面的漸進式框架。Vue 的核心庫只關注視圖層，不僅易於上手，還便於與第三方庫或既有項目整合。另一方面，當與現代化的工具鏈以及各種支持類庫結合使用時，Vue也完全能夠為複雜的單頁應用提供驅動。\cite{name12}
 \begin{itemize}
 	\item 元件\\
 	元件是Vue最為強大的特性之一。為了更好地管理一個大型的應用程式，往往需要將應用切割為小而獨立、具有復用性的元件。在Vue中，元件是基礎HTML元素的拓展，可方便地自訂其資料與行為。
@@ -46,6 +47,20 @@ Vue (讀音 /vjuː/，類似於 view) 是一套用於構建用戶界面的漸進
 
 \subsection{jquery}
 jQuery是一套跨瀏覽器的JavaScript函式庫，簡化HTML與JavaScript之間的操作。jQuery是開源軟體，使用MIT授權條款授權。jQuery的語法設計使得許多操作變得容易，如操作文件（document）、選擇文件物件模型（DOM）元素、建立動畫效果、處理事件、以及開發Ajax程式。jQuery也提供了給開發人員在其上建立外掛程式的能力。這使開發人員可以對底層互動與動畫、進階效果和進階主題化的元件進行抽象化。模組化的方式使jQuery函式庫能夠建立功能強大的動態網頁以及網路應用程式。\cite{name14}\cite{name15}
+
+\section{Firebase}
+Firebase是一個雲端開發平台支援多種os，可協助app開發快速建立後端的服務並提供即時的資料。\cite{name23}
+Firebase有幾項特別槍大的功能:
+\begin{enumerate}[1.]
+	\item 事件紀錄無上限:\\
+	Firebase有500種預設的事件類型，而且紀錄總量無上限。並且使用SDK則可以自動收集事件。
+	\item 支援原始資料自動匯出\\
+	在大量資料分析處理Firebase有支援自動匯出功能，可讓企業針對資料執行進行SQL分析查詢。
+	\item 直接行動的分析工具\\
+	Firebase具有區隔使用者的功能，藉由案裝置、事件、或是資源(如年齡、性別、語言)的分類特定區隔，如此便可以更精確投遞廣告。\cite{name22}
+	
+	
+	\end{enumerate}
 
 \section{python}
 因python這項語言包含太多領域，故本節介紹的部分偏向分析、人工智慧與機器學習。
@@ -60,6 +75,6 @@ jQuery是一套跨瀏覽器的JavaScript函式庫，簡化HTML與JavaScript之�
 \end{itemize}
 \subsection{Colab}
 Colaboratory 是一個免費的 Jupyter 筆記本環境，不需要進行任何設置就可以使用，並且完全在雲端運行。
-借助 Colaboratory，您可以編寫和執行代碼、保存和共享分析結果，以及利用強大的計算資源，所有這些都可通過瀏覽器免費使用。\cite{name19}
+借助 Colaboratory，在此筆記本上可以編寫和執行代碼、保存和共享分析結果，以及利用強大的計算資源，所有這些都可通過瀏覽器免費使用。\cite{name19}
 colab是一個可使用瀏覽器線上編輯的雲端筆記本，並且可以使用google提供的GPU或是TPU，
 不需在自己的主機建構環境。

@@ -4,7 +4,6 @@
 解讀google的人工智慧圍棋「大腦」.
 \newblock
   \url{https://www.bnext.com.tw/article/38740/BN-2016-02-22-183726-196}.
-\newblock 1.
 
 \bibitem{name2}
 Web app 的定義.
@@ -69,6 +68,14 @@ jquery.
 \bibitem{name15}
 jquery,wiki.
 \newblock \url{ https://zh.wikipedia.org/wiki/JQuery }.
+
+\bibitem{name23}
+Firebase.
+\newblock \url{ https://firebase.google.com }.
+
+\bibitem{name22}
+Firebase是什麼.
+\newblock \url{ https://tw.alphacamp.co/blog/2016-07-22-firebase }.
 
 \bibitem{name16}
 Ai.wiki.
