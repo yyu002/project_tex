@@ -21,7 +21,7 @@
 \usepackage{booktabs} %需要加载宏包{booktabs}
 \usepackage{cite}
 \usepackage{comment}
-
+\usepackage{pdfpages}
 %coding setting mystyle
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -88,10 +88,12 @@
 \makecover
 
 \ifdefined\withcertification
-  \includepdf[angle=0]{certification.pdf}
+  %\includepdf[angle=0]{certification.pdf}
 \else
   \makecertification
 \fi
+%\includepdf[pages={1,2}]{論文封面.pdf} 
+
 
 \input{acknowledgements}
 \AddToShipoutPictureBG{\MyAtPageCenter{\includegraphics[scale=1]{2016070004.jpg}}}
