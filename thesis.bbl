@@ -5,14 +5,14 @@
 \newblock
   \url{https://www.bnext.com.tw/article/38740/BN-2016-02-22-183726-196}.
 
-\bibitem{name2}
-Web app 的定義.
-\newblock \url{ https://phd.com.tw/knowledge/app-dev/web-app/ }.
-
 \bibitem{name3}
 Progressive web apps 簡介.
 \newblock \url{ https://support.google.com/google-ads/answer/7336531?hl=zh-Hant
   }.
+
+\bibitem{name2}
+Web app 的定義.
+\newblock \url{ https://phd.com.tw/knowledge/app-dev/web-app/ }.
 
 \bibitem{name4}
 瘋狂程設網站.
@@ -24,20 +24,15 @@ Progressive web apps 簡介.
   https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22102MCU05392008%22.&searchmode=basic&extralimit=asc=%22%E9%8A%98%E5%82%B3%E5%A4%A7%E5%AD%B8%22&extralimitunit=%E9%8A%98%E5%82%B3%E5%A4%A7%E5%
   }.
 
-\bibitem{name6}
-網路爬蟲,wiki.
-\newblock \url{
-  https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2 }.
-
-\bibitem{name7}
-Progressive web app.
-\newblock \url{ https://blog.techbridge.cc/2016/07/23/progressive-web-app/ }.
-
 \bibitem{name8}
 網路應用程式,wiki.
 \newblock \url{
   https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F
   }.
+
+\bibitem{name7}
+Progressive web app.
+\newblock \url{ https://blog.techbridge.cc/2016/07/23/progressive-web-app/ }.
 
 \bibitem{name9}
 Html5,wiki.
@@ -53,14 +48,6 @@ Html5,wiki.
 Javascript,wiki.
 \newblock \url{ https://zh.wikipedia.org/wiki/JavaScript }.
 
-\bibitem{name12}
-vue.js.
-\newblock \url{ https://vuejs.org/ }.
-
-\bibitem{name13}
-vue,wiki.
-\newblock \url{ https://zh.wikipedia.org/wiki/Vue.js }.
-
 \bibitem{name14}
 jquery.
 \newblock \url{ https://jquery.com/ }.
@@ -68,6 +55,14 @@ jquery.
 \bibitem{name15}
 jquery,wiki.
 \newblock \url{ https://zh.wikipedia.org/wiki/JQuery }.
+
+\bibitem{name12}
+vue.js.
+\newblock \url{ https://vuejs.org/ }.
+
+\bibitem{name13}
+vue,wiki.
+\newblock \url{ https://zh.wikipedia.org/wiki/Vue.js }.
 
 \bibitem{name23}
 Firebase.
@@ -100,11 +95,5 @@ colab.
 \bibitem{name20}
 定時器使用方式及運作機制.
 \newblock \url{ https://ithelp.ithome.com.tw/articles/10209476?sc=iThelpR }.
-
-\bibitem{name21}
-chart.
-\newblock \url{
-  http://jsfiddle.net/no2don/kp50Lqnh/1/?utm_source=website&utm_medium=embed&utm_campaign=kp50Lqnh
-  }.
 
 \end{thebibliography}
